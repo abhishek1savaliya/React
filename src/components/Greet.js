@@ -4,6 +4,13 @@ import React from "react";
 //    return <h1>Hare Krishna</h1>
 // }
 
-export const Greet = () => <h1>Hare Krishna</h1>;
+export const Greet = (props) => {
+    return (
+        <div>
+            <h1>Hare {props.name} {props.heroname}</h1>
+            {props.children}
+        </div>
+    )
+}
 
 // export default Greet;
