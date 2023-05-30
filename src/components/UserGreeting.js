@@ -10,7 +10,7 @@ export class UserGreeting extends Component {
     }
 
     render() {
-       
+
         return this.state.isLoggedIn && <div>Welcome Krishna</div>
 
         // return (
