@@ -6,22 +6,24 @@ class RefsDemo extends Component {
 
         this.inputRef = React.createRef()
         this.cbRef = null
-        this.setCbRef = (element)=>{
+        this.setCbRef = (element) => {
             this.cbRef = element
         }
     }
 
     componentDidMount() {
-            if(this.cbRef){
-                this.cbRef.focus()
-            }
+        if (this.cbRef) {
+            this.cbRef.focus()
+        }
 
         // this.inputRef.current.focus()
         // console.log(this.inputRef)
     }
+    
     clickHandler = () => {
         alert(this.inputRef.current.value)
     }
+
     render() {
         return (
             <div>
