@@ -22,7 +22,7 @@ function List() {
             skill : "Gada"
         }
     ]
-    const  PersonList = persons.map(persons => <Person persons={persons}/>)
+    const  PersonList = persons.map(persons => <Person key={persons.id} persons={persons}/>)
     return (<div>{PersonList}</div>)
 }
 
