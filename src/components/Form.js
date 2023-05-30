@@ -36,7 +36,7 @@ export default class Form extends Component {
 
 
     render() {
-        const {username,comments,topic} = this.state
+        const { username, comments, topic } = this.state
         return (
             <form onSubmit={this.handleSubmit}>
                 <div>
