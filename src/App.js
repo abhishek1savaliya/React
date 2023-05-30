@@ -6,11 +6,13 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBInd from './components/EventBInd';
 
 function App() {
   return (
     <div className="App">
-      <ClassClick />
+      <EventBInd />
+      {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
