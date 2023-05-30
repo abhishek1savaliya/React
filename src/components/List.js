@@ -23,7 +23,7 @@ function List() {
             skill: "Gada"
         }
     ]
-    const NamesList = names.map((name,index) => <h2 key={index}>{index} {name}</h2> )
+    const NamesList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>)
     return (<div>{NamesList}</div>)
 }
 
