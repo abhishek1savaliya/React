@@ -8,18 +8,18 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
       {/* <Message /> */}
-      {/* <Greet name="Bruce" heroname="Doremon"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi excepturi tenetur ipsam voluptas amet.</p> </Greet>
+       {/* <Greet name="Bruce" heroname="Doremon"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam commodi excepturi tenetur ipsam voluptas amet.</p> </Greet>
       <Greet name="clark" heroname="Superman"><button>Button
-      </button></Greet>
+      </button></Greet> */}
       <Greet name="Dayana" heroname="Wonderwomen" />
 
       <Welcome name="Bruce" heroname="Doremon" />
-      <Welcome name="clark" heroname="Superman" />
-      <Welcome name="Dayana" heroname="Wonderwomen" />
+      {/* <Welcome name="clark" heroname="Superman" /> */}
+      {/* <Welcome name="Dayana" heroname="Wonderwomen" /> */}
 
-      <Hello /> */}
+      {/* <Hello />  */}
     </div>
   );
 }
