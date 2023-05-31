@@ -23,13 +23,20 @@ import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
-import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
+// import PortalDemo from './components/PortalDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+
+      <ErrorBoundry>  <Hero heroname='Batman' /> </ErrorBoundry>
+      <ErrorBoundry>   <Hero heroname='Superman' /> </ErrorBoundry>
+      <ErrorBoundry> <Hero heroname='joker' /> </ErrorBoundry>
+
+      {/* <PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
