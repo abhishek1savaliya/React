@@ -28,13 +28,17 @@ import ErrorBoundry from './components/ErrorBoundry';
 import PortalDemo from './components/PortalDemo';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
 
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter name='Krishna' />
-      <HoverCounter />
+      <ClickCounterTwo />
+      <HoverCounterTwo />
+      {/* <ClickCounter name='Krishna' />
+      <HoverCounter /> */}
       {/* 
       <ErrorBoundry>  <Hero heroname='Batman' /> </ErrorBoundry>
       <ErrorBoundry>   <Hero heroname='Superman' /> </ErrorBoundry>
